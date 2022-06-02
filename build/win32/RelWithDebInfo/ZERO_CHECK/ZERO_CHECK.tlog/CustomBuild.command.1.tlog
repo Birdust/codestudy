@@ -1,0 +1,10 @@
+^C:\USERS\KCSKK\SOURCE\REPOS\CODESTUDY\BUILD\CMAKEFILES\AE7C935DDB0A5F0046923768D28CF02D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kcskk/source/repos/codestudy -BC:/Users/kcskk/source/repos/codestudy/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/kcskk/source/repos/codestudy/build/codingstudy.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
