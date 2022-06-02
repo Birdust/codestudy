@@ -1,5 +1,13 @@
-cmake_minimum_required(VERSION 3.0)
-project(sayhello)
-set(CMAKE_CXX_COMPILER g++)
-set(SOURCES .vscode/sayhello.cpp)
-add_executable(${PROJECT_NAME} ${SOURCES})
+cmake_minimum_required(VERSION 3.0.0)
+project(codingstudy VERSION 0.1.0)
+
+include(CTest)
+enable_testing()
+
+file (GLOB PROJ_SRC "*.h" "*.cpp")
+add_executable (TestProj ${PROJ_SRC})
+
+
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)

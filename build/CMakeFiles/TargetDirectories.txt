@@ -1,0 +1,9 @@
+C:/Users/kcskk/source/repos/codestudy/build/CMakeFiles/Experimental.dir
+C:/Users/kcskk/source/repos/codestudy/build/CMakeFiles/Nightly.dir
+C:/Users/kcskk/source/repos/codestudy/build/CMakeFiles/Continuous.dir
+C:/Users/kcskk/source/repos/codestudy/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/kcskk/source/repos/codestudy/build/CMakeFiles/TestProj.dir
+C:/Users/kcskk/source/repos/codestudy/build/CMakeFiles/PACKAGE.dir
+C:/Users/kcskk/source/repos/codestudy/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/kcskk/source/repos/codestudy/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kcskk/source/repos/codestudy/build/CMakeFiles/ZERO_CHECK.dir
