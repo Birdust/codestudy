@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "COVERAGE_COMMAND-NOTFOUND"
+			"value" : "C:/MinGW/bin/gcov.exe"
 		},
 		{
 			"name" : "COVERAGE_EXTRA_FLAGS",
