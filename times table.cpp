@@ -11,6 +11,7 @@ void sum_array(int ar[15][15]) {
 			ar[dan][i] = int(dan * i); // 합을 위한 배열
 			ar[10][i] += ar[dan][i]; // 세로 합 출력 식
 			ar[10][10] += ar[dan][i]; // 전체 합 출력 식
+			
 		}
 	}
 }
