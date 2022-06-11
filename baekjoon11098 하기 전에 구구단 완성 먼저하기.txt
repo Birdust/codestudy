@@ -1,8 +1,10 @@
 #include <iostream>
+using namespace std;
 int main(){
-    int i;
-
-    std::cout << "TEST hihi";
+    int n;
+    cout << "100 보다 작은 테스트 케이스를 입력하세요";
+    cin >> n;
+    
     
 
 
