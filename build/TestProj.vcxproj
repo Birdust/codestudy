@@ -305,7 +305,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\kcskk\source\repos\codestudy\times table.cpp" />
+    <ClCompile Include="C:\Users\kcskk\source\repos\codestudy\baekjoon11098.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\kcskk\source\repos\codestudy\build\ZERO_CHECK.vcxproj">
