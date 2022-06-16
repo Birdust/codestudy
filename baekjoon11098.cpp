@@ -1,14 +1,24 @@
 #include <iostream>
 using namespace std;
-void player_info(int p){
-
+void player_info(int size){
+    for(int i=0; i>=size;i++){
+        int C;
+        char name[20];
+        cin >> C >> name[20];
+        cout << C << name[20];
+        C, name[20] = 0;
+    }
+    
 }
 int main(){
     int n,p;
-    int C, name;
-    cin >> n >> p;
-    cin >> C >>
-
+    cin >> n;
+    cin >> p;
+    for (int test=0;test<n;n++)
+    {
+    player_info(p);
+    
+    }
 
     
 
