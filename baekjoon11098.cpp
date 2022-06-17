@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void player_info(int size){
+int player_info(int size){
     for(int i=0; i>=size;i++){
         int C;
         char name[20];
@@ -18,6 +18,7 @@ int main(){
     {
     player_info(p);
     
+
     }
 
     
