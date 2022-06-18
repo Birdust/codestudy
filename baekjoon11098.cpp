@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int player_info(int size){
-    for(int i=0; i>=size;i++){
+    for(int i=0; i<=size;i++){
         int C;
         char name[20];
         cin >> C >> name[20];
