@@ -5,6 +5,7 @@ int main() {
     char info[100][21] = {};
     int n, p, C, name;
     cin >> n >> p;
+    char max[100] = {};
     for (int test = 0;test < n;test++)
     {
         for (int i = 0; i < p;i++)
@@ -12,7 +13,8 @@ int main() {
             cin >> C >> name;
             cin >> info[i];
             if (info[i] < max)
-                
+               
+
         }
         //max 
 
