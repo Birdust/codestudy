@@ -2,23 +2,24 @@
 using namespace std;
 #include "string"
 int main() {
-    char info[100][21] = {};
-    int n, p, C, name;
-    cin >> n >> p;
-    char max[100] = {};
-    for (int test = 0;test < n;test++)
-    {
-        for (int i = 0; i < p;i++)
-        {
+
+    int n, p;
+    cin >> n;
+
+    for (int i = 0; i < n; i++) {
+        cin >> p;
+        int C;
+        string name;
+        int max= 0;
+        string print;
+        for (int j = 0; j < p; j++) {
             cin >> C >> name;
-            cin >> info[i];
-            if (info[i] < max)
-               
-
+            if (C > max) {
+                max = C;
+                print = name;
+            }
         }
-        //max 
-
+        cout << print << "\n";
     }
-
     return 0;
 }
