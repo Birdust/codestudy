@@ -5,6 +5,7 @@ include(CTest)
 enable_testing()
 
 file (GLOB PROJ_SRC "*.h" "*.cpp")
+file (GLOB PROJ_SRC "*.py")
 add_executable (TestProj ${PROJ_SRC})
 
 
